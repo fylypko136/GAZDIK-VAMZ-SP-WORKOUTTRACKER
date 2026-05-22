@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Workout Tracker</string>
+
+    <!-- Spoločné -->
+    <string name="back">Späť</string>
+    <string name="save">Uložiť</string>
+    <string name="delete">Vymazať</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="add">Pridať</string>
+    <string name="edit">Upraviť</string>
+
+    <!-- HomeScreen -->
+    <string name="home_history_cd">História</string>
+    <string name="home_stats_cd">Štatistiky</string>
+    <string name="home_new_routine_cd">Nová rutina</string>
+    <string name="home_active_title">Prebieha tréning</string>
+    <string name="home_active_subtitle">Klikni pre pokračovanie</string>
+    <string name="home_total_label">Celkovo tréningov</string>
+    <string name="home_my_routines">Moje rutiny</string>
+    <string name="home_no_routines">Zatiaľ žiadne rutiny</string>
+    <string name="home_no_routines_hint">Stlač + pre vytvorenie novej</string>
+    <string name="home_delete_title">Vymazať rutinu</string>
+    <string name="home_delete_confirm">Naozaj chceš vymazať rutinu \"%s\"?</string>
+    <string name="home_start">Štart</string>
+
+    <!-- RoutineDetailScreen -->
+    <string name="routine_edit_title">Upraviť rutinu</string>
+    <string name="routine_new_title">Nová rutina</string>
+    <string name="routine_name_hint">Názov rutiny</string>
+    <string name="routine_desc_hint">Popis (voliteľné)</string>
+    <string name="routine_exercises_header">Cviky</string>
+    <string name="routine_pick_existing">Existujúci</string>
+    <string name="routine_add_new">Nový</string>
+    <string name="routine_no_exercises">Žiadne cviky. Pridaj cviky do rutiny.</string>
+    <string name="routine_save_first">Ulož rutinu, potom môžeš pridávať cviky.</string>
+    <string name="reorder_up_cd">Posunúť hore</string>
+    <string name="reorder_down_cd">Posunúť dole</string>
+    <string name="exercise_remove_cd">Odstrániť</string>
+    <string name="dialog_new_exercise">Nový cvik</string>
+    <string name="dialog_exercise_name">Názov cviku</string>
+    <string name="dialog_exercise_category">Kategória (napr. Prsia, Nohy)</string>
+    <string name="dialog_pick_exercise">Vyber cvik</string>
+    <string name="dialog_no_exercises">Žiadne uložené cviky.</string>
+
+    <!-- ActiveWorkoutScreen -->
+    <string name="workout_finish">Dokončiť</string>
+    <string name="rest_timer_running">Odpočinok: %s</string>
+    <string name="rest_timer_done">Hotovo! ✓</string>
+    <string name="rest_timer_stop_cd">Zastaviť</string>
+    <string name="workout_pick_existing">Existujúci cvik</string>
+    <string name="workout_add_new">Nový cvik</string>
+    <string name="rest_timer_card_title">Časovač odpočinku</string>
+    <string name="rest_1min">1 min</string>
+    <string name="rest_1min30">1:30</string>
+    <string name="rest_2min">2 min</string>
+    <string name="rest_3min">3 min</string>
+    <string name="workout_done_title">Tréning dokončený! 🎉</string>
+    <string name="workout_done_volume_label">Celkový zdvihnutý objem</string>
+    <string name="workout_done_saved">Tréning bol uložený do histórie.</string>
+    <string name="workout_done_view_detail">Zobraziť detail</string>
+    <string name="workout_done_home">Domov</string>
+    <string name="set_header">Séria</string>
+    <string name="reps_header">Opakovania</string>
+    <string name="weight_header">Váha (kg)</string>
+    <string name="reps_hint">Opak.</string>
+    <string name="reps_hint_prev">Opak. (bolo %sx)</string>
+    <string name="weight_hint">Váha (kg)</string>
+    <string name="weight_hint_prev">kg (bolo %s)</string>
+    <string name="add_set_button">+Séria</string>
+    <string name="last_session_label">Minule: </string>
+
+    <!-- WorkoutDetailScreen -->
+    <string name="detail_title">Detail tréningu</string>
+    <string name="detail_volume_label">Celkový objem</string>
+    <string name="detail_no_sets">Žiadne série zaznamenané.</string>
+
+    <!-- HistoryScreen -->
+    <string name="history_title">História tréningov</string>
+    <string name="history_empty">Žiadne záznamy</string>
+    <string name="history_empty_hint">Tréningy sa tu objavia po dokončení</string>
+    <string name="history_delete_title">Vymazať tréning</string>
+    <string name="history_delete_confirm">Naozaj chceš vymazať \"%s\"?</string>
+    <string name="history_delete_cd">Vymazať</string>
+
+    <!-- StatsScreen -->
+    <string name="stats_title">Štatistiky</string>
+    <string name="stats_total">Celkovo</string>
+    <string name="stats_sessions_unit">tréningov</string>
+    <string name="stats_this_week">Tento týždeň</string>
+    <string name="stats_this_month">Tento mesiac</string>
+    <string name="stats_time_card">Čas tréningu</string>
+    <string name="stats_total_time">Celkový čas</string>
+    <string name="stats_avg_time">Priemerný čas</string>
+    <string name="stats_chart_title">Posledné tréningy (dĺžka v min)</string>
+    <string name="stats_recent">Posledné tréningy</string>
+    <string name="stats_no_data">—</string>
+
+    <!-- Notifikácie -->
+    <string name="notif_rest_channel_name">Časovač odpočinku</string>
+    <string name="notif_rest_channel_desc">Upozornenie po skončení odpočinku</string>
+    <string name="notif_rest_title">Odpočinok skončil!</string>
+    <string name="notif_rest_text">Čas na ďalšiu sériu 💪</string>
+    <string name="notif_workout_channel_name">Tréning dokončený</string>
+    <string name="notif_workout_channel_desc">Motivačné upozornenie po dokončení tréningu</string>
+    <string name="notif_workout_title">Tréning dokončený! 🏆</string>
+    <string name="notif_workout_text">Skvelá práca! Celkový objem: %.1f kg 💪</string>
+    <string name="notif_workout_text_empty">Skvelá práca! Tréning bol uložený.</string>
+    <string name="notif_reminder_channel_name">Pripomienka tréningu</string>
+    <string name="notif_reminder_channel_desc">Upozornenie keď si dlho netrénoval</string>
+    <string name="notif_reminder_title">Čas na tréning! 💪</string>
+    <string name="notif_reminder_text">Už 3 dni si netrénoval. Nevzdávaj sa!</string>
+
+    <!-- HistoryScreen — počet sérií -->
+    <string name="history_set_count">%d sérií</string>
+
+    <!-- StatsScreen — graf prepínač + progress váhy -->
+    <string name="stats_chart_title_duration">Posledné tréningy (dĺžka v min)</string>
+    <string name="stats_chart_title_sets">Posledné tréningy (počet sérií)</string>
+    <string name="stats_chart_toggle_cd">Prepnúť zobrazenie grafu</string>
+    <string name="stats_weight_progress_title">Progres váhy pri cviku</string>
+    <string name="stats_pick_exercise">Vyber cvik…</string>
+    <string name="stats_no_exercises">Žiadne cviky v databáze.</string>
+
+    <!-- Widget -->
+    <string name="widget_label">tréningov tento týždeň</string>
+    <string name="widget_description">Zobrazuje počet tréningov v tomto týždni</string>
+
+    <!-- Spoločné — ikony / content descriptions -->
+    <string name="more_options_cd">Viac možností</string>
+</resources>
