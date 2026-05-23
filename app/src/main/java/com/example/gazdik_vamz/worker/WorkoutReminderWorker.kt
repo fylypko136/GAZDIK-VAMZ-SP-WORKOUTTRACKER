@@ -30,9 +30,8 @@ class WorkoutReminderWorker(
 
         WorkoutWidget.updateAll(context)
 
-        if (recentCount == 0) {
-            sendReminderNotification()
-        }
+        // TEST: vždy posli notifikáciu
+        sendReminderNotification()
 
         return Result.success()
     }
