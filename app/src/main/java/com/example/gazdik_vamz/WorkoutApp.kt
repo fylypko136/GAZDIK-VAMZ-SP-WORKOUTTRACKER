@@ -20,6 +20,8 @@ import kotlinx.coroutines.launch
 import java.util.concurrent.TimeUnit
 
 /** Aplikačná trieda */
+// Pri tvorení semestrálnej práce bol použitý AI asistent (Claude) ako pomocný nástroj
+// pri písaní KDoc komentárov a úprave čitateľnosti kódu.
 class WorkoutApp : Application() {
 
     val database by lazy { AppDatabase.getInstance(this) }
