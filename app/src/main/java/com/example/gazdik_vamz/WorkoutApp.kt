@@ -35,9 +35,13 @@ class WorkoutApp : Application() {
 
 
     private fun scheduleWorkoutReminder() {
-        // TEST: spusti hned
-        val oneTime = androidx.work.OneTimeWorkRequestBuilder<WorkoutReminderWorker>().build()
-        WorkManager.getInstance(this).enqueue(oneTime)
+        val request = PeriodicWorkRequestBuilder<WorkoutReminderWorker>(1, TimeUnit.DAYS)
+            .build()
+        WorkManager.getInstance(this).enqueueUniquePeriodicWork(
+            WorkoutReminderWorker.WORK_NAME,
+            ExistingPeriodicWorkPolicy.KEEP,
+            request
+        )
     }
 
 
