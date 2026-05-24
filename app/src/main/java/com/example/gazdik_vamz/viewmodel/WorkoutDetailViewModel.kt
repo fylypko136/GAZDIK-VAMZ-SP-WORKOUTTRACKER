@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
 /** ViewModel pre obrazovku detailu dokončeného tréningu.*/
+// https://www.youtube.com/watch?v=9eIhMFTs1Q8 - Simple MVVM App 🔥 | Android | Jetpack Compose - Easy Tuto
 class WorkoutDetailViewModel(
     private val repository: WorkoutRepository,
     private val sessionId: Long

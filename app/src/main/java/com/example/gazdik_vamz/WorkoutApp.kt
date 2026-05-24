@@ -22,6 +22,10 @@ import java.util.concurrent.TimeUnit
 /** Aplikačná trieda */
 // Pri tvorení semestrálnej práce bol použitý AI asistent (Claude) ako pomocný nástroj
 // pri písaní KDoc komentárov a úprave čitateľnosti kódu.
+
+//Pri písaní boli využité následovné tutoriály
+// https://www.youtube.com/watch?v=LP623htmWcI - Local Notifications in Android - The Full Guide (Android Studio Tutorial) - Philipp Lackner
+// https://www.youtube.com/watch?v=A2JetouoNSc - WorkManager - Android Basics 2023 - Philipp Lackner
 class WorkoutApp : Application() {
 
     val database by lazy { AppDatabase.getInstance(this) }

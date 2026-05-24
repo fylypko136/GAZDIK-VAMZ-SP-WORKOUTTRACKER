@@ -8,6 +8,7 @@ import com.example.gazdik_vamz.data.local.dao.*
 import com.example.gazdik_vamz.data.local.entity.*
 
 /** Hlavná databáza aplikácie. */
+// https://www.youtube.com/watch?v=bOd3wO0uFr8 - The FULL Beginner Guide for Room in Android | Local Database Tutorial for Android - Philipp Lackner
 @Database(
     entities = [
         WorkoutRoutine::class,

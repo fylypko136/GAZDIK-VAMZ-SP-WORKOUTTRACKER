@@ -14,6 +14,8 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
 /** ViewModel pre hlavnú obrazovku. */
+// https://www.youtube.com/watch?v=9eIhMFTs1Q8 - Simple MVVM App | Android | Jetpack Compose - Easy Tuto
+
 class HomeViewModel(
     private val repository: WorkoutRepository,
     private val prefs: ActiveSessionPrefs

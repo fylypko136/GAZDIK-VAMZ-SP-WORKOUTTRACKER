@@ -38,6 +38,7 @@ import com.example.gazdik_vamz.viewmodel.ActiveExerciseState
 import com.example.gazdik_vamz.viewmodel.ActiveWorkoutViewModel
 
 /** Obrazovka aktívneho tréningu.*/
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ActiveWorkoutScreen(navController: NavController, routineId: Long, existingSessionId: Long) {

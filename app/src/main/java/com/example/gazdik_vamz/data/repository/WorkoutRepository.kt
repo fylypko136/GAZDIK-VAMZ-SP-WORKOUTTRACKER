@@ -7,7 +7,8 @@ import com.example.gazdik_vamz.data.local.AppDatabase
 import com.example.gazdik_vamz.data.local.entity.*
 import kotlinx.coroutines.flow.Flow
 
-
+// https://www.youtube.com/watch?v=bOd3wO0uFr8 - The FULL Beginner Guide for Room in Android | Local Database Tutorial for Android - Philipp Lackner
+// https://www.youtube.com/watch?v=NlzVx8q1YVg - The Ultimate Guide to Android Pagination with Paging 3 & Jetpack Compose and clean architecture - CodeWithSaid
 class WorkoutRepository(db: AppDatabase) {
 
     private val routineDao = db.workoutRoutineDao()

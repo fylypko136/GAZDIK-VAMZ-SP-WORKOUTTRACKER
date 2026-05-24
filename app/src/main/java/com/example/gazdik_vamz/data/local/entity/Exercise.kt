@@ -9,6 +9,7 @@ import androidx.room.PrimaryKey
  * Cviky sú uložené nezávisle od rutín — jeden cvik môže byť v niekoľkých rutinách
  * Vymazanie rutiny neodstráni cviky; vymazanie cviku taktiež neodstráni históriu sérií
  */
+    // https://www.youtube.com/watch?v=bOd3wO0uFr8 - The FULL Beginner Guide for Room in Android | Local Database Tutorial for Android - Philipp Lackner
 
 @Entity(tableName = "exercises")
 data class Exercise(

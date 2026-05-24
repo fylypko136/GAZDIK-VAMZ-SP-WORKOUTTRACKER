@@ -6,6 +6,7 @@ import com.example.gazdik_vamz.data.local.entity.WorkoutRoutine
 import kotlinx.coroutines.flow.Flow
 
 /** Data Access Objects pre CREATE, READ, UPDATE a DELETE pre tabuľku WorkoutRoutine */
+// https://www.youtube.com/watch?v=bOd3wO0uFr8 - The FULL Beginner Guide for Room in Android | Local Database Tutorial for Android - Philipp Lackner
 @Dao
 interface WorkoutRoutineDao {
 

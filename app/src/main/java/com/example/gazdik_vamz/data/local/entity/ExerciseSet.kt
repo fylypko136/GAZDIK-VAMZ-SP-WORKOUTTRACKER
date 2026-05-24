@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey
  *
  * Každá séria patrí do konkrétnej session a konkrétneho cviku.
  */
-
+// https://www.youtube.com/watch?v=bOd3wO0uFr8 - The FULL Beginner Guide for Room in Android | Local Database Tutorial for Android - Philipp Lackner
 @Entity(tableName = "exercise_sets")
 data class ExerciseSet(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,

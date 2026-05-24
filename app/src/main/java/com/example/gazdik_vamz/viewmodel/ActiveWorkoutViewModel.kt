@@ -17,6 +17,8 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
 /** Stav jedného cviku počas aktívneho tréningu. */
+// https://www.youtube.com/watch?v=9eIhMFTs1Q8 - Simple MVVM App | Android | Jetpack Compose - Easy Tuto
+
 data class ActiveExerciseState(
     val exercise: Exercise,
     val sets: List<ExerciseSet> = emptyList(),

@@ -10,6 +10,8 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
 /** ViewModel pre obrazovku vytvorenia/úpravy rutiny.*/
+// https://www.youtube.com/watch?v=9eIhMFTs1Q8 - Simple MVVM App | Android | Jetpack Compose - Easy Tuto
+
 class RoutineDetailViewModel(
     private val repository: WorkoutRepository,
     private val routineId: Long

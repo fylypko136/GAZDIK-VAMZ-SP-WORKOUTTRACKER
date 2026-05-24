@@ -9,6 +9,8 @@ import com.example.gazdik_vamz.data.repository.WorkoutRepository
 import kotlinx.coroutines.launch
 
 /** ViewModel pre obrazovku histórie tréningov. */
+// https://www.youtube.com/watch?v=NlzVx8q1YVg - The Ultimate Guide to Android Pagination with Paging 3 - CodeWithSaid
+
 class HistoryViewModel(private val repository: WorkoutRepository) : ViewModel() {
 
 

@@ -27,6 +27,8 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 
 /** Obrazovka histórie tréningov — zobrazuje zoznam všetkých sessions zoradených od najnovšej. */
+// https://www.youtube.com/watch?v=NlzVx8q1YVg - The Ultimate Guide to Android Pagination with Paging 3 - CodeWithSaid
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HistoryScreen(navController: NavController) {

@@ -16,6 +16,8 @@ import com.example.gazdik_vamz.data.repository.WorkoutRepository
 import com.example.gazdik_vamz.widget.WorkoutWidget
 import java.util.concurrent.TimeUnit
 
+// https://www.youtube.com/watch?v=LP623htmWcI - Local Notifications in Android - The Full Guide (Android Studio Tutorial) - Philipp Lackner
+// https://www.youtube.com/watch?v=A2JetouoNSc - WorkManager - Android Basics 2023 - Philipp Lackner
 
 class WorkoutReminderWorker(
     private val context: Context,

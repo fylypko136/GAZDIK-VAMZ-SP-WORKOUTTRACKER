@@ -17,6 +17,7 @@ import kotlinx.coroutines.launch
 import java.util.concurrent.TimeUnit
 
 /** Widget pre počet tréningov v tomto týždni.*/
+// https://www.youtube.com/watch?v=JKyMESrJ7WA - How to create a widget for your Android App - DBTechProjects
 class WorkoutWidget : AppWidgetProvider() {
 
 

@@ -12,6 +12,7 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import java.util.concurrent.TimeUnit
 
+// https://www.youtube.com/watch?v=9eIhMFTs1Q8 - Simple MVVM App 🔥 | Android | Jetpack Compose - Easy Tuto
 
 enum class ChartType {
     DURATION,

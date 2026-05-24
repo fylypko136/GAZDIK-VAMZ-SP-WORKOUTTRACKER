@@ -9,6 +9,7 @@ import kotlinx.coroutines.flow.Flow
  * Data Access Objects pre CREATE, READ, UPDATE a DELETE pre tabuľku exercise_sets.
    Zobrazenie sérií, hodnoty z predchádzajúcej session, graf progresu váhy.
  */
+// https://www.youtube.com/watch?v=bOd3wO0uFr8 - The FULL Beginner Guide for Room in Android | Local Database Tutorial for Android - Philipp Lackner
 @Dao
 interface ExerciseSetDao {
 

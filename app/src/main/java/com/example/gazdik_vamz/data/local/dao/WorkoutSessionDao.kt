@@ -8,6 +8,8 @@ import com.example.gazdik_vamz.data.local.entity.WorkoutSession
 import kotlinx.coroutines.flow.Flow
 
 /** Data Access Objects pre CREATE, READ, UPDATE a DELETE pre tabuľku workout_sessions. */
+// https://www.youtube.com/watch?v=bOd3wO0uFr8 - The FULL Beginner Guide for Room in Android | Local Database Tutorial for Android - Philipp Lackner
+// https://www.youtube.com/watch?v=NlzVx8q1YVg - The Ultimate Guide to Android Pagination with Paging 3 & Jetpack Compose and clean architecture - CodeWithSaid
 @Dao
 interface WorkoutSessionDao {
 

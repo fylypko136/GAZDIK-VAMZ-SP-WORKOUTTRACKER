@@ -7,6 +7,8 @@ import androidx.navigation.navArgument
 import com.example.gazdik_vamz.ui.screens.*
 
 /** Navigačný graf aplikácie. */
+// https://www.youtube.com/watch?v=4gUeyNkGE3g - Jetpack Compose Navigation for Beginners - Philipp Lackner
+
 @Composable
 fun AppNavigation() {
     val navController = rememberNavController()

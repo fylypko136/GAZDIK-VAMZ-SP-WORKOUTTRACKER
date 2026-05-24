@@ -3,7 +3,7 @@ package com.example.gazdik_vamz
 import android.content.Context
 import androidx.core.content.edit
 
-
+// https://www.youtube.com/watch?v=o5TTg135H-E - SharedPreferences Read + Write | Android 2022 | Kotlin - The Android Factory
 class ActiveSessionPrefs(context: Context) {
 
     private val prefs = context.getSharedPreferences("active_session_prefs", Context.MODE_PRIVATE)
